@@ -18,10 +18,9 @@ class cap(object):
 		
 		
 	def read(self):
-		
-		image_name=self.file_list[self.count]
 		self.count=self.count+1
 		if self.count<self.length:
+			image_name=self.file_list[self.count]
 			img=cv2.imread(image_name) 
 			return True,img
 		else:

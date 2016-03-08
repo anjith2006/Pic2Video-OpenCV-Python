@@ -15,9 +15,9 @@ import  pic2video # import the pic to video module
 
 path='/home/lab//BioID/BioID-FaceDatabase-V1.2/'+"*.pgm"  #path to the folder containing the images (with the proper extension)
 
-#cap=pic2video.cap(path)  # For reading images 
+cap=pic2video.cap(path)  # For reading images 
 
-cap = cv2.VideoCapture(1) # For reading from the webcam
+#cap = cv2.VideoCapture(1) # For reading from the webcam
 
 
 
